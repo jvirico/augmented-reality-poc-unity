@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2920d3b689e840cfaae9897c2e4fa91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 7241481259895642106, guid: 7013c7f8b563248ff9c480160c298672,
+  furniture: {fileID: 4149827710016686192, guid: 0ce1ca5a92883402ea594b6aaa8452a8,
     type: 3}
 --- !u!1 &226958845
 GameObject:
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2920d3b689e840cfaae9897c2e4fa91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 777231420505232095, guid: 44a9132d0216b4102b76126cb8674406,
+  furniture: {fileID: 840311715657750232, guid: d0b981c805a5046e0931bbeacc95fc3d,
     type: 3}
 --- !u!1 &670160614
 GameObject:
@@ -896,7 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 048991cee4d1d49a1a9351bec67e9529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 7241481259895642106, guid: 7013c7f8b563248ff9c480160c298672,
+  furniture: {fileID: 840311715657750232, guid: d0b981c805a5046e0931bbeacc95fc3d,
     type: 3}
 --- !u!4 &835643072
 Transform:
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2920d3b689e840cfaae9897c2e4fa91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furniture: {fileID: 5722823433674244204, guid: 48a2dbbc1ae724c08a919b6e618140d7,
+  furniture: {fileID: 5039889429679803154, guid: b1e9de2ec06e14a73b2a2700e93cbe1e,
     type: 3}
 --- !u!1 &1724984654
 GameObject:
@@ -1470,6 +1470,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 225923253968554775, guid: 629dd03fc32d34ddc802ce1222e75f58,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 203d01fa1d838448bbf1ca4d952aedfc, type: 2}
     - target: {fileID: 5874152574000906014, guid: 629dd03fc32d34ddc802ce1222e75f58,
         type: 3}
       propertyPath: m_LocalPosition.x
