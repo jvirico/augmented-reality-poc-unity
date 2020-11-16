@@ -771,4 +771,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/anne-claire/Documents/3_UBx/AR/MyDecoratorHelper/FirstBuild.apk
+  playerPath: /Users/anne-claire/Documents/FirstBuildAndRun.apk

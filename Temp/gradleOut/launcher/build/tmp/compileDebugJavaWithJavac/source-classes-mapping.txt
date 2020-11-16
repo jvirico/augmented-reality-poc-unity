@@ -1,0 +1,2 @@
+com/DefaultCompany/MyIKEAplace/BuildConfig.java
+ com.DefaultCompany.MyIKEAplace.BuildConfig
