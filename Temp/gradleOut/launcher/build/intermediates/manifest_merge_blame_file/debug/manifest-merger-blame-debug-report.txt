@@ -8,163 +8,163 @@
 8
 9    <uses-sdk
 10        android:minSdkVersion="19"
-10-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+10-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 11        android:targetSdkVersion="29" />
-11-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+11-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 12
 13    <supports-screens
-13-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
+13-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
 14        android:anyDensity="true"
-14-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:135-160
+14-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:135-160
 15        android:largeScreens="true"
-15-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:78-105
+15-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:78-105
 16        android:normalScreens="true"
-16-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:49-77
+16-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:49-77
 17        android:smallScreens="true"
-17-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:21-48
+17-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:21-48
 18        android:xlargeScreens="true" />
-18-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:106-134
+18-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:106-134
 19
 20    <uses-feature android:glEsVersion="0x00030000" />
-20-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-54
-20-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-51
+20-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-54
+20-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-51
 21
 22    <uses-permission android:name="android.permission.INTERNET" />
-22-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
-22-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-64
+22-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+22-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-64
 23
 24    <uses-feature
-24-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
+24-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
 25        android:name="android.hardware.touchscreen"
-25-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-52
+25-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-52
 26        android:required="false" />
-26-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
+26-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
 27    <uses-feature
-27-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:36
+27-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:36
 28        android:name="android.hardware.touchscreen.multitouch"
-28-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-63
+28-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-63
 29        android:required="false" />
-29-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-33
+29-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-33
 30    <uses-feature
-30-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-25:36
+30-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-25:36
 31        android:name="android.hardware.touchscreen.multitouch.distinct"
-31-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-72
+31-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-72
 32        android:required="false" />
-32-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-33
+32-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-33
 33
 34    <uses-permission android:name="android.permission.CAMERA" />
-34-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-65
-34-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-62
+34-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-65
+34-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-62
 35
 36    <queries>
-36-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:29:5-31:15
+36-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:29:5-31:15
 37        <package android:name="com.google.ar.core" />
-37-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:30:9-54
-37-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:30:18-51
+37-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:30:9-54
+37-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:30:18-51
 38    </queries>
 39
 40    <application
-40-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-83
+40-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-83
 41        android:debuggable="true"
 42        android:icon="@mipmap/app_icon"
-42-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-80
+42-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-80
 43        android:label="@string/app_name" >
-43-->/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
+43-->/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
 44        <activity
-44-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-49:20
+44-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-49:20
 45            android:name="com.unity3d.player.UnityPlayerActivity"
-45-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-66
+45-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-66
 46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-46-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-194
+46-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-194
 47            android:hardwareAccelerated="false"
-47-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-48
+47-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-48
 48            android:launchMode="singleTask"
-48-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-44
+48-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-44
 49            android:screenOrientation="fullSensor"
-49-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-51
+49-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-51
 50            android:theme="@style/UnityThemeSelector" >
-50-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-54
+50-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-54
 51            <intent-filter>
-51-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-41:29
+51-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-41:29
 52                <action android:name="android.intent.action.MAIN" />
-52-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:17-69
-52-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:25-66
+52-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:17-69
+52-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:25-66
 53
 54                <category android:name="android.intent.category.LAUNCHER" />
-54-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:17-77
-54-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:27-74
+54-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:17-77
+54-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:27-74
 55            </intent-filter>
 56
 57            <meta-data
-57-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-45:40
+57-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-45:40
 58                android:name="unityplayer.UnityActivity"
-58-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-57
+58-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-57
 59                android:value="true" />
-59-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:17-37
+59-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:17-37
 60            <meta-data
-60-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-48:40
+60-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-48:40
 61                android:name="android.notch_support"
-61-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:17-53
+61-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:17-53
 62                android:value="true" />
-62-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-37
+62-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-37
 63        </activity>
 64
 65        <meta-data
-65-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-53:33
+65-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-53:33
 66            android:name="unity.splash-mode"
-66-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-45
+66-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-45
 67            android:value="0" />
-67-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-30
+67-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-30
 68        <meta-data
-68-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:9-56:36
+68-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:9-56:36
 69            android:name="unity.splash-enable"
-69-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-47
+69-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-47
 70            android:value="True" />
-70-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:13-33
+70-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:13-33
 71        <meta-data
-71-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:9-59:50
+71-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:9-59:50
 72            android:name="notch.config"
-72-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-40
+72-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-40
 73            android:value="portrait|landscape" />
-73-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-47
+73-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-47
 74        <meta-data
-74-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:68
+74-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:68
 75            android:name="unity.build-id"
-75-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-42
-76            android:value="bbce344e-1a6f-4875-af78-793784e6ee79" />
-76-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-65
+75-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-42
+76            android:value="8e5f1353-0cef-4608-8f1c-bd454f315bc0" />
+76-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-65
 77        <meta-data
-77-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:9-65:36
+77-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:9-65:36
 78            android:name="unityplayer.SkipPermissionsDialog"
-78-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-61
+78-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-61
 79            android:value="true" />
-79-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-33
+79-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-33
 80        <meta-data
-80-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:9-68:40
+80-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:9-68:40
 81            android:name="com.google.ar.core"
-81-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-46
+81-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:13-46
 82            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
-82-->[:unityLibrary] /Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-37
+82-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:13-37
 83        <meta-data
-83-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:36:9-38:41
+83-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:36:9-38:41
 84            android:name="com.google.ar.core.min_apk_version"
-84-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:37:13-62
+84-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:37:13-62
 85            android:value="201750000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
-85-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:38:13-38
+85-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:38:13-38
 86        <activity
-86-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:40:9-46:80
+86-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:40:9-46:80
 87            android:name="com.google.ar.core.InstallActivity"
-87-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:41:13-62
+87-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:41:13-62
 88            android:configChanges="keyboardHidden|orientation|screenSize"
-88-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:42:13-74
+88-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:42:13-74
 89            android:excludeFromRecents="true"
-89-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:43:13-46
+89-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:43:13-46
 90            android:exported="false"
-90-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:44:13-37
+90-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:44:13-37
 91            android:launchMode="singleTop"
-91-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:45:13-43
+91-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:45:13-43
 92            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-92-->[:arcore_client:] /Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/AndroidManifest.xml:46:13-77
+92-->[:arcore_client:] /Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/AndroidManifest.xml:46:13-77
 93    </application>
 94
 95</manifest>

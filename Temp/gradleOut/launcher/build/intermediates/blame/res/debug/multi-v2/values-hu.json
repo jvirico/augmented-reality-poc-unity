@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anne-claire/Documents/github/IPCV_AR_MyDecoratorHelper/Temp/gradleOut/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
+            "outputFile": "/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
-                    "source": "/Users/anne-claire/.gradle/caches/transforms-2/files-2.1/2ee6fdc72b67c31f77742d7b0b5454ed/arcore_client/res/values-hu/values.xml",
+                    "source": "/Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/res/values-hu/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",
