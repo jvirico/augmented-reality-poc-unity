@@ -4,6 +4,9 @@ ScriptsOnlyBuild:
     - ButtonManager
     - DataHandler
     - InputManager
+    - UIManager
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -12,9 +15,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
-    - UnityEngine.XR.ARFoundation.ARPlane
     - UnityEngine.XR.ARFoundation.ARPlaneManager
-    - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
@@ -29,10 +30,14 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -53,59 +58,61 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11264}
+      Script: {instanceID: 11266}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11466}
     - Class: 114
-      Script: {instanceID: 11506}
+      Script: {instanceID: 11508}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11548}
     - Class: 114
-      Script: {instanceID: 11702}
+      Script: {instanceID: 11634}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 11704}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 11890}
     - Class: 114
-      Script: {instanceID: 11998}
+      Script: {instanceID: 11910}
     - Class: 114
-      Script: {instanceID: 12214}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12514}
+      Script: {instanceID: 12258}
     - Class: 114
-      Script: {instanceID: 12598}
+      Script: {instanceID: 12516}
     - Class: 114
-      Script: {instanceID: 12782}
+      Script: {instanceID: 12538}
     - Class: 114
-      Script: {instanceID: 12792}
+      Script: {instanceID: 12600}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 12794}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13148}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13326}
+      Script: {instanceID: 13122}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13150}
     - Class: 114
-      Script: {instanceID: 13490}
+      Script: {instanceID: 13328}
     - Class: 114
-      Script: {instanceID: 13580}
+      Script: {instanceID: 13470}
+    - Class: 114
+      Script: {instanceID: 13492}
+    - Class: 114
+      Script: {instanceID: 13582}
+    - Class: 114
+      Script: {instanceID: 15452}
+    - Class: 114
+      Script: {instanceID: 15510}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -768,7 +775,31 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ceecc0949ae04bc0b0ade7fb27fad853
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 179648033371456981a3c08cb9f47477
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIContentFilter
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/ARDecoratorHelper.apk
+  playerPath: /Users/anne-claire/Documents/3_UBx/AR/MyDecoratorHelper.apk
