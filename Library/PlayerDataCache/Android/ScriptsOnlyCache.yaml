@@ -63,60 +63,62 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11266}
+      Script: {instanceID: 11268}
     - Class: 114
-      Script: {instanceID: 11466}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 11508}
+      Script: {instanceID: 11518}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11558}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11646}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11716}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 11910}
+      Script: {instanceID: 11922}
     - Class: 114
-      Script: {instanceID: 12000}
+      Script: {instanceID: 12012}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 12276}
     - Class: 114
-      Script: {instanceID: 12516}
+      Script: {instanceID: 12440}
     - Class: 114
-      Script: {instanceID: 12538}
+      Script: {instanceID: 12544}
     - Class: 114
-      Script: {instanceID: 12600}
+      Script: {instanceID: 12566}
     - Class: 114
-      Script: {instanceID: 12784}
+      Script: {instanceID: 12628}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12822}
     - Class: 114
-      Script: {instanceID: 12994}
+      Script: {instanceID: 12890}
     - Class: 114
-      Script: {instanceID: 13122}
+      Script: {instanceID: 12970}
     - Class: 114
-      Script: {instanceID: 13150}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13328}
+      Script: {instanceID: 13154}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13362}
     - Class: 114
-      Script: {instanceID: 13582}
+      Script: {instanceID: 13504}
     - Class: 114
-      Script: {instanceID: 15452}
+      Script: {instanceID: 13526}
     - Class: 114
-      Script: {instanceID: 15510}
+      Script: {instanceID: 13616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -376,6 +378,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIContentFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.XR.ARCore.dll
     namespaceName: UnityEngine.XR.ARCore
     className: ARCoreLoader
@@ -429,6 +437,18 @@ ScriptsOnlyBuild:
     className: ARPointCloud
   - hash:
       serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 179648033371456981a3c08cb9f47477
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -453,7 +473,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 06c94ab94af2e30472f71a6f8f10bd46
+      Hash: 5adba3cdacc52884e4ced807010a3301
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InputManager
@@ -529,6 +549,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ceecc0949ae04bc0b0ade7fb27fad853
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
   - hash:
       serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
@@ -775,31 +801,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: ceecc0949ae04bc0b0ade7fb27fad853
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIManager
-  - hash:
-      serializedVersion: 2
-      Hash: 704dcd31abc789439bc3f3cd10b58c2b
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 179648033371456981a3c08cb9f47477
-    assemblyName: DOTween.dll
-    namespaceName: DG.Tweening.Core
-    className: DOTweenSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UIContentFilter
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/anne-claire/Documents/3_UBx/AR/MyDecoratorHelper.apk
+  playerPath: /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Deployments/TestingMarker.apk
