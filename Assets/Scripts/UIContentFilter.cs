@@ -11,7 +11,7 @@ public class UIContentFilter : MonoBehaviour
         HorizontalLayoutGroup hg = GetComponent<HorizontalLayoutGroup>();
         int childCount = transform.childCount -1;
         float childWidth = transform.GetChild(0).GetComponent<RectTransform>().rect.width;
-        float width = childCount * (hg.spacing + childWidth) + hg.padding.left; // all the width are the samze
+        float width = hg.spacing * (childCount) + (childCount) * childWidth + hg.padding.left; // all the width are the same
 
         GetComponent<RectTransform>().sizeDelta = new Vector2(width, 265);
     }

@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fb908aa5b6fd4e89aece9e277b9ba1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectionPoint: {fileID: 0}
+  selectionPoint: {fileID: 1075746774}
 --- !u!1 &698985142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,8 +1170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0007967442, y: 0}
-  m_SizeDelta: {x: 0, y: 265}
+  m_AnchoredPosition: {x: 0, y: 0.000011444}
+  m_SizeDelta: {x: 600, y: 210.8623}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &698985144
 MonoBehaviour:
@@ -1182,11 +1182,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 698985142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Script: {fileID: 11500000, guid: ed747f65b107246168d6c7aff1844fd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 2
-  m_VerticalFit: 0
 --- !u!114 &698985145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1206,8 +1204,8 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 4
   m_Spacing: 70
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
@@ -1851,7 +1849,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 720923021}
   m_HandleRect: {fileID: 720923020}
   m_Direction: 0
-  m_Value: -0.0000013224284
+  m_Value: 0
   m_Size: 0.64285713
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2015,7 +2013,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 300}
+  m_SizeDelta: {x: 0, y: 225.02716}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1499442293
 MonoBehaviour:
@@ -2044,7 +2042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Content: {fileID: 698985143}
   m_Horizontal: 1
-  m_Vertical: 1
+  m_Vertical: 0
   m_MovementType: 1
   m_Elasticity: 0.1
   m_Inertia: 1
