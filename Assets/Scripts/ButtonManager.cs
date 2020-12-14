@@ -22,10 +22,12 @@ public class ButtonManager : MonoBehaviour
     {
       if (UIManager.Instance.onEntered(gameObject))
       {
+        //transform.localScale = Vector3.one * 2;
         transform.DOScale(Vector3.one * 2, 0.2f); // second gives the times 
       }
       else
       {
+        //transform.localScale = Vector3.one;
         transform.DOScale(Vector3.one, 0.2f); 
       }
 
