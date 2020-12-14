@@ -1,6 +1,2 @@
-## IPCV - Virtual and Augmented Reality
-## Decorator Helper
-### Anne
-### Javi
-### Nano
-### Yang
+## IPCV - Virtual and Augmented Reality - Decorator Helper
+Anne, Javi, Nano and Yang
