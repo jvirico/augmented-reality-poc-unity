@@ -1,4 +1,0 @@
-#Mon Dec 14 19:58:43 CET 2020
-base.0=/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/build/intermediates/dex/debug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

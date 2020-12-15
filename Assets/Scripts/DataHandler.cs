@@ -37,8 +37,8 @@ public class DataHandler : MonoBehaviour
 
     void LoadItems(){
         var items_obj = Resources.LoadAll("Items", typeof(Item));
-        foreach (Item i in items_obj){
-          items.Add(i);
+        foreach (var item in items_obj){
+          items.Add(item as Item);
         }
     }
 

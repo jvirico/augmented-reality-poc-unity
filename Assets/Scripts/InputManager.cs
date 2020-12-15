@@ -23,10 +23,11 @@ public class InputManager : MonoBehaviour
     void Update()
     {
       CrosshairCalculation();
-      touch = Input.GetTouch(0);
 
-      if(Input.touchCount<0 || touch.phase!=TouchPhase.Began)
+      if(Input.touchCount<1 || touch.phase!=TouchPhase.Began)
         return;
+
+      touch = Input.GetTouch(0);
 
       if(IsPointerOverUI(touch)) return;
 
