@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3631619216280459397eb9320358d099, type: 3}
-  m_Name: Item1
+  m_Name: Chair
   m_EditorClassIdentifier: 
   price: 50
-  itemPrefab: {fileID: 5039889429679803154, guid: b1e9de2ec06e14a73b2a2700e93cbe1e,
+  itemPrefab: {fileID: 986007158692960863, guid: 48a2dbbc1ae724c08a919b6e618140d7,
     type: 3}
   itemImage: {fileID: 0}
