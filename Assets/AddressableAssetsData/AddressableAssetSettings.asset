@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: edb200a18fc774c6abc390c97d4d80b6
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_DisableCatalogUpdateOnStart: 0
   m_UniqueBundleIds: 0
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: bcf942b6955664d60ae732176664c4ab
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: 3e4b6e1a8153b448794bc9bbda1f6200
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: f8c51275a171b46709041d8bc6b17dae, type: 2}
@@ -46,7 +46,7 @@ MonoBehaviour:
       - m_Id: bcf942b6955664d60ae732176664c4ab
         m_Value: ServerData/[BuildTarget]
       - m_Id: 3e4b6e1a8153b448794bc9bbda1f6200
-        m_Value: http://localhost/[BuildTarget]
+        m_Value: arn:aws:s3:::ardecoratorhelperassets/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: 8c00e66ca7560481c8b711c4da5fc96b
       m_Name: BuildTarget
@@ -68,6 +68,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - Modules
+    - Furnitures
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 66e2f1002610e4bc28abd7630910ac67, type: 2}

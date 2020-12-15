@@ -12,12 +12,17 @@ public class AssetLoader : MonoBehaviour
     void Start()
     {
         //Addressables.LoadAssetAsync<GameObject>("Modules").Completed += OnLoadDone; //The keys here are the Labels assignmed to addresable in Addressables Groups window
-        Addressables.LoadAssetAsync<GameObject>("Furnitures").Completed += OnLoadDone;
+        //Addressables.LoadAssetAsync<GameObject>("Furnitures").Completed += OnLoadDone;
+        Addressables.LoadAssetsAsync<GameObject>("Furnitures",OnLoadDone); //We are checking for addressables labeled as Furnitires and calling OnLoadDone method for each of them.
     }
 
-private void OnLoadDone(AsyncOperationHandle<GameObject> obj){
-    loadedAssets.Add(obj.Result);
-}
+    private void OnLoadDone(GameObject obj){
+        loadedAssets.Add(obj);
+    }
+
+    private void OnLoadDone(AsyncOperationHandle<GameObject> obj){
+        loadedAssets.Add(obj.Result);
+    }
 
 
     // Update is called once per frame
