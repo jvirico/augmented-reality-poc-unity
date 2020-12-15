@@ -30,7 +30,7 @@ public class InputManager : MonoBehaviour
 
       if(IsPointerOverUI(touch)) return;
 
-      Instantiate(DataHandler.Instance.furniture, pose.position, pose.rotation);
+      Instantiate(DataHandler.Instance.GetFurniture(), pose.position, pose.rotation);
     }
 
     bool IsPointerOverUI(Touch touch)
