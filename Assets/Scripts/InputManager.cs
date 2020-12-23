@@ -26,12 +26,13 @@ public class InputManager : MonoBehaviour
 
       if(Input.touchCount<1 || touch.phase!=TouchPhase.Began)
         return;
+      else{
+        touch = Input.GetTouch(0);
+        if(IsPointerOverUI(touch)) return;
 
-      touch = Input.GetTouch(0);
+        Instantiate(DataHandler.Instance.GetFurniture(), pose.position, pose.rotation);
+      }
 
-      if(IsPointerOverUI(touch)) return;
-
-      Instantiate(DataHandler.Instance.GetFurniture(), pose.position, pose.rotation);
     }
 
     bool IsPointerOverUI(Touch touch)
