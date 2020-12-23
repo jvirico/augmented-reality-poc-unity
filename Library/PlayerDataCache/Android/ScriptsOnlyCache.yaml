@@ -1,12 +1,29 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AssetLoader
     - ButtonManager
     - DataHandler
     - InputManager
+    - Item
+    - UIContentFilter
     - UIManager
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
+    Unity.Addressables.Editor.dll:
+    - UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptFastMode
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedMode
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedPlayMode
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptVirtualMode
+    - UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+    - UnityEditor.AddressableAssets.Settings.AddressableAssetGroupTemplate
+    - UnityEditor.AddressableAssets.Settings.AddressableAssetSettings
+    - UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
+    - UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
+    - UnityEditor.AddressableAssets.Settings.GroupSchemas.PlayerDataGroupSchema
+    Unity.ResourceManager.dll:
+    - UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -30,7 +47,6 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
@@ -63,55 +79,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11476}
-    - Class: 114
-      Script: {instanceID: 11518}
+      Script: {instanceID: 11280}
     - Class: 114
       Script: {instanceID: 11558}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 11716}
+      Script: {instanceID: 11670}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11774}
     - Class: 114
-      Script: {instanceID: 11922}
+      Script: {instanceID: 11872}
     - Class: 114
-      Script: {instanceID: 12012}
+      Script: {instanceID: 12094}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 12114}
     - Class: 114
-      Script: {instanceID: 12440}
+      Script: {instanceID: 12236}
     - Class: 114
-      Script: {instanceID: 12544}
+      Script: {instanceID: 12344}
     - Class: 114
       Script: {instanceID: 12566}
     - Class: 114
-      Script: {instanceID: 12628}
+      Script: {instanceID: 12778}
     - Class: 114
-      Script: {instanceID: 12812}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 12822}
+      Script: {instanceID: 13012}
     - Class: 114
-      Script: {instanceID: 12890}
+      Script: {instanceID: 13036}
     - Class: 114
-      Script: {instanceID: 12970}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 13268}
     - Class: 114
-      Script: {instanceID: 13154}
+      Script: {instanceID: 13366}
     - Class: 114
-      Script: {instanceID: 13184}
+      Script: {instanceID: 13476}
     - Class: 114
-      Script: {instanceID: 13362}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 13526}
+      Script: {instanceID: 13738}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13974}
+    - Class: 114
+      Script: {instanceID: 14144}
+    - Class: 114
+      Script: {instanceID: 14180}
+    - Class: 114
+      Script: {instanceID: 14288}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -129,6 +149,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -239,10 +265,22 @@ ScriptsOnlyBuild:
     className: ARRaycastManager
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ResourceManager.dll
+    namespaceName: UnityEngine.ResourceManagement.Diagnostics
+    className: DiagnosticEventCollector
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abac5121de605e823446fa14b478d7fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Item
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -273,6 +311,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlaneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ResourceManager.dll
+    namespaceName: UnityEngine.ResourceManagement.Util
+    className: DelayedActionManager
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -339,6 +383,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ResourceManager.dll
+    namespaceName: 
+    className: MonoBehaviourCallbackHooks
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -461,12 +511,6 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: f84d945e5e1ca985698660fc26e9657f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -477,6 +521,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 622785d9a89425bd66bd40753a30a4d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AssetLoader
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -513,6 +563,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 54a5082489fad547766d3d4d7635df12
+    assemblyName: Unity.ScriptableBuildPipeline.dll
+    namespaceName: UnityEngine.Build.Pipeline
+    className: CompatibilityAssetBundleManifest
   - hash:
       serializedVersion: 2
       Hash: 840e65a413cc46ebbbbf200f4362a70c
@@ -575,7 +631,7 @@ ScriptsOnlyBuild:
     className: ARTrackedImage
   - hash:
       serializedVersion: 2
-      Hash: aa645c8609ec544df7a3851e9b0faec0
+      Hash: 9c29b0cae48ec381eed5ce548ee6c66c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonManager
@@ -707,7 +763,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: aa645c8609ec544df7a3851e9b0faec0
+      Hash: 582bb47310fb1bf37165c2aa79528bf8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DataHandler
