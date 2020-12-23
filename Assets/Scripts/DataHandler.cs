@@ -43,30 +43,34 @@ public class DataHandler : MonoBehaviour
         foreach (var cloudObj in loadedAssets){
 
           Item auxItem = new Item();
-          auxItem.price = 0.0F;
+          //auxItem.price = 0.0F;
           auxItem.itemPrefab = cloudObj;
+          //auxItem.itemImage = cloudObj.Image;
 
           items.Add(auxItem as Item);
           print(items);
         }
+        
     }
 
     public void LoadItem(GameObject cloudAsset){
 
       //Item auxItem = new Item();
       Item auxItem = ScriptableObject.CreateInstance<Item>();
-      auxItem.price = 0.0F;
+      //auxItem.price = 0.0F;
       auxItem.itemPrefab = cloudAsset;
 
       items.Add(auxItem as Item);
     }
 
-    public void CreateButton(GameObject cloudAsset, int id)
+    public void CreateButton(GameObject cloudAsset, Sprite image, int id)
     {
 
       Item auxItem = ScriptableObject.CreateInstance<Item>();
-      auxItem.price = 0.0F;
+      
       auxItem.itemPrefab = cloudAsset;
+      auxItem.itemImage = image;
+      items.Add(auxItem as Item);
 
       ButtonManager b = Instantiate(buttonPrefab, buttonContainer.transform);
       b.ItemId = id;
@@ -80,7 +84,7 @@ public class DataHandler : MonoBehaviour
           //We will create a button for each Item in the list
           ButtonManager b = Instantiate(buttonPrefab, buttonContainer.transform);
           b.ItemId = current_id;
-          b.ButtonTexture = i.itemImage;
+          //b.ButtonTexture = i.itemImage;
           current_id++;
         }
     }

@@ -49,7 +49,7 @@ android {
     }
 
     aaptOptions {
-        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'aa/android/catalog.json', 'aa/android/link.xml', 'aa/android/settings.json', 'aa/android/android/defaultlocalgroup_unitybuiltinshaders_1213f864a5b07998603bb1203cc1c1cd.bundle', 'aa/android/android/models_assets_all_591b214b4277180af79bf275877a7bc8.bundle']
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', 'aa/android/catalog.json', 'aa/android/link.xml', 'aa/android/settings.json', 'aa/android/android/defaultlocalgroup_assets_all_24eaca5bdd4efdc3786baf099061de47.bundle', 'aa/android/android/defaultlocalgroup_unitybuiltinshaders_1213f864a5b07998603bb1203cc1c1cd.bundle']
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }
 

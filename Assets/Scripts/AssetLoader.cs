@@ -7,6 +7,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 public class AssetLoader : MonoBehaviour
 {
     [SerializeField] List<GameObject> loadedAssets = new List<GameObject>();
+    List<Sprite> loadedImages = new List<Sprite>();
     private int id = 0;
 
     // Start is called before the first frame update
@@ -14,15 +15,40 @@ public class AssetLoader : MonoBehaviour
     {
         //Addressables.LoadAssetAsync<GameObject>("Modules").Completed += OnLoadDone; //The keys here are the Labels assignmed to addresable in Addressables Groups window
         //Addressables.LoadAssetAsync<GameObject>("Furnitures").Completed += OnLoadDone;
-        Addressables.LoadAssetsAsync<GameObject>("Furnitures",OnLoadDone); //We are checking for addressables labeled as Furnitires and calling OnLoadDone method for each of them.
+        //Addressables.LoadAssetsAsync<GameObject>("Furnitures",OnLoadDone); //We are checking for addressables labeled as Furnitires and calling OnLoadDone method for each of them.
         //DataHandler.Instance.CreateButtons();
+
+        Addressables.LoadAssetsAsync<GameObject>("Furnitures",LoadFurnitures);
+        Addressables.LoadAssetsAsync<Sprite>("Images",LoadImages);
     }
 
-    private void OnLoadDone(GameObject obj){
+    private void LoadFurnitures(GameObject obj){
         loadedAssets.Add(obj);
-        DataHandler.Instance.LoadItem(obj);
-        DataHandler.Instance.CreateButton(obj,id);
-        id++;
+    }
+
+    private void LoadImages(Sprite obj){
+
+        if(obj!=null){
+            loadedImages.Add(obj);
+            string img_name = obj.name;
+
+            foreach (var item in loadedAssets) //Find corresponding GameObject
+            {
+                if(item.name == img_name){
+                    DataHandler.Instance.CreateButton(item,obj,id);
+                    id++;
+                }
+            }
+        }
+        DataHandler.Instance.SetFurniture(id);
+    }
+
+
+    private void OnLoadDone(GameObject obj){
+        //loadedAssets.Add(obj);
+        //DataHandler.Instance.LoadItem(obj);
+        //DataHandler.Instance.CreateButton(obj,id);
+        //id++;
     }
 
     private void OnLoadDone(AsyncOperationHandle<GameObject> obj){

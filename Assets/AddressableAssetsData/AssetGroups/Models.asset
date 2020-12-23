@@ -16,61 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e0f8899a474bb4cf7ba6a9ae44c4bb21
-  m_SerializeEntries:
-  - m_GUID: 0ce1ca5a92883402ea594b6aaa8452a8
-    m_Address: lamp
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Furnitures
-    m_MainAsset: {fileID: 4149827710016686192, guid: 0ce1ca5a92883402ea594b6aaa8452a8,
-      type: 3}
-    m_TargetAsset: {fileID: 4149827710016686192, guid: 0ce1ca5a92883402ea594b6aaa8452a8,
-      type: 3}
-  - m_GUID: 1a5c03298657b43008679c83248698eb
-    m_Address: Wooden_Table
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Furnitures
-    m_MainAsset: {fileID: 4605829850167504999, guid: 1a5c03298657b43008679c83248698eb,
-      type: 3}
-    m_TargetAsset: {fileID: 4605829850167504999, guid: 1a5c03298657b43008679c83248698eb,
-      type: 3}
-  - m_GUID: 48a2dbbc1ae724c08a919b6e618140d7
-    m_Address: chair
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Furnitures
-    m_MainAsset: {fileID: 986007158692960863, guid: 48a2dbbc1ae724c08a919b6e618140d7,
-      type: 3}
-    m_TargetAsset: {fileID: 986007158692960863, guid: 48a2dbbc1ae724c08a919b6e618140d7,
-      type: 3}
-  - m_GUID: a72a6f80e8c9c44fb9cdac92ac9b06ee
-    m_Address: Cube
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Modules
-    m_MainAsset: {fileID: 3127185568661486478, guid: a72a6f80e8c9c44fb9cdac92ac9b06ee,
-      type: 3}
-    m_TargetAsset: {fileID: 3127185568661486478, guid: a72a6f80e8c9c44fb9cdac92ac9b06ee,
-      type: 3}
-  - m_GUID: d0b981c805a5046e0931bbeacc95fc3d
-    m_Address: Table
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Furnitures
-    m_MainAsset: {fileID: 840311715657750232, guid: d0b981c805a5046e0931bbeacc95fc3d,
-      type: 3}
-    m_TargetAsset: {fileID: 840311715657750232, guid: d0b981c805a5046e0931bbeacc95fc3d,
-      type: 3}
-  - m_GUID: d3f242305888f48f3a35775c09039b6c
-    m_Address: Sphere
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Modules
-    m_MainAsset: {fileID: 3619114629342484733, guid: d3f242305888f48f3a35775c09039b6c,
-      type: 3}
-    m_TargetAsset: {fileID: 3619114629342484733, guid: d3f242305888f48f3a35775c09039b6c,
-      type: 3}
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2feeb6d8ee6e94384a60a6011a115909, type: 2}
   m_SchemaSet:

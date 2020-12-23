@@ -69,6 +69,7 @@ MonoBehaviour:
     - default
     - Modules
     - Furnitures
+    - Images
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 66e2f1002610e4bc28abd7630910ac67, type: 2}
