@@ -131,7 +131,7 @@
 74-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:68
 75            android:name="unity.build-id"
 75-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-42
-76            android:value="d7a6034a-940f-4f68-a36b-25bfe8365eb6" />
+76            android:value="c7552320-878a-486d-be5a-3215fca8ec2c" />
 76-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-65
 77        <meta-data
 77-->[:unityLibrary] /Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:9-65:36
