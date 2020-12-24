@@ -29,7 +29,6 @@ public class ButtonManager : MonoBehaviour
       btn = GetComponent<Button>(); // assign Button
       btn.onClick.AddListener(SelectObject);
 
-
     }
 
     // Update is called once per frame

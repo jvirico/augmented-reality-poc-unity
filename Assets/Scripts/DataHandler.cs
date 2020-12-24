@@ -10,7 +10,7 @@ using UnityEngine;
 public class DataHandler : MonoBehaviour
 {
 
-    private GameObject furniture;
+    [SerializeField] private GameObject furniture;
     [SerializeField] private ButtonManager buttonPrefab;
     [SerializeField] private GameObject buttonContainer;
     [SerializeField] private List<Item> items; //we will store all the 3D objects we need for the App.
@@ -35,7 +35,30 @@ public class DataHandler : MonoBehaviour
       //CreateButtons();
     }
 
-    public void LoadItems(List<GameObject> loadedAssets){
+    public void CreateButton(GameObject cloudAsset, Sprite image, int id)
+    {
+
+      Item auxItem = ScriptableObject.CreateInstance<Item>();
+      
+      auxItem.itemPrefab = cloudAsset;
+      auxItem.itemImage = image;
+      items.Add(auxItem as Item);
+
+      ButtonManager b = Instantiate(buttonPrefab, buttonContainer.transform);
+      b.ItemId = id;
+      b.ButtonTexture = auxItem.itemImage;
+    }
+    
+    public void SetFurniture(int id){
+        furniture = items[id].itemPrefab;
+        Debug.Log("Button " + id + " selected");
+    }
+
+    public GameObject GetFurniture(){
+      return furniture;
+    }
+
+/*     public void LoadItems(List<GameObject> loadedAssets){
         //var items_obj = Resources.LoadAll("Items", typeof(Item));
         //AssetLoader cloudLoader = new AssetLoader();
         //var cloud_objs_list = cloudLoader.GetCloudAssets();
@@ -51,9 +74,9 @@ public class DataHandler : MonoBehaviour
           print(items);
         }
         
-    }
+    } */
 
-    public void LoadItem(GameObject cloudAsset){
+/*     public void LoadItem(GameObject cloudAsset){
 
       //Item auxItem = new Item();
       Item auxItem = ScriptableObject.CreateInstance<Item>();
@@ -61,23 +84,11 @@ public class DataHandler : MonoBehaviour
       auxItem.itemPrefab = cloudAsset;
 
       items.Add(auxItem as Item);
-    }
+    } */
 
-    public void CreateButton(GameObject cloudAsset, Sprite image, int id)
-    {
 
-      Item auxItem = ScriptableObject.CreateInstance<Item>();
-      
-      auxItem.itemPrefab = cloudAsset;
-      auxItem.itemImage = image;
-      items.Add(auxItem as Item);
 
-      ButtonManager b = Instantiate(buttonPrefab, buttonContainer.transform);
-      b.ItemId = id;
-      b.ButtonTexture = auxItem.itemImage;
-    }
-
-    public void CreateButtons()
+/*     public void CreateButtons()
     {
         current_id = 0;
         foreach(Item i in items){
@@ -87,12 +98,6 @@ public class DataHandler : MonoBehaviour
           //b.ButtonTexture = i.itemImage;
           current_id++;
         }
-    }
-    public void SetFurniture(int id){
-        furniture = items[id].itemPrefab;
-    }
+    } */
 
-    public GameObject GetFurniture(){
-      return furniture;
-    }
 }

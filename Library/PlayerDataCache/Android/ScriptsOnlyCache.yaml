@@ -22,8 +22,6 @@ ScriptsOnlyBuild:
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
     - UnityEditor.AddressableAssets.Settings.GroupSchemas.PlayerDataGroupSchema
-    Unity.ResourceManager.dll:
-    - UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollector
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -32,7 +30,9 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
+    - UnityEngine.XR.ARFoundation.ARPlane
     - UnityEngine.XR.ARFoundation.ARPlaneManager
+    - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
@@ -64,9 +64,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -75,58 +83,64 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11280}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11558}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11670}
+      Script: {instanceID: 11672}
     - Class: 114
-      Script: {instanceID: 11774}
+      Script: {instanceID: 11776}
     - Class: 114
-      Script: {instanceID: 11872}
+      Script: {instanceID: 11874}
     - Class: 114
-      Script: {instanceID: 12094}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 12114}
+      Script: {instanceID: 12118}
     - Class: 114
-      Script: {instanceID: 12236}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 12344}
+      Script: {instanceID: 12240}
     - Class: 114
-      Script: {instanceID: 12566}
+      Script: {instanceID: 12348}
     - Class: 114
-      Script: {instanceID: 12778}
+      Script: {instanceID: 12514}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 12782}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 12942}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 13268}
+      Script: {instanceID: 13040}
     - Class: 114
-      Script: {instanceID: 13366}
+      Script: {instanceID: 13262}
     - Class: 114
-      Script: {instanceID: 13476}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 13540}
+      Script: {instanceID: 13370}
     - Class: 114
-      Script: {instanceID: 13700}
+      Script: {instanceID: 13480}
     - Class: 114
-      Script: {instanceID: 13738}
+      Script: {instanceID: 13544}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 14144}
+      Script: {instanceID: 13742}
     - Class: 114
-      Script: {instanceID: 14180}
+      Script: {instanceID: 13978}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14148}
+    - Class: 114
+      Script: {instanceID: 14184}
+    - Class: 114
+      Script: {instanceID: 14292}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -511,7 +525,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 5adba3cdacc52884e4ced807010a3301
+      Hash: 06c94ab94af2e30472f71a6f8f10bd46
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InputManager
@@ -757,7 +771,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 582bb47310fb1bf37165c2aa79528bf8
+      Hash: 4c36b25adcc2f9a309192f3eafdff19e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DataHandler

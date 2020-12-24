@@ -35,12 +35,12 @@ public class AssetLoader : MonoBehaviour
             foreach (var item in loadedAssets) //Find corresponding GameObject
             {
                 if(item.name == img_name){
+                    //We moved the Button creation here because of the Asyncronicity of the Addressable Load.
                     DataHandler.Instance.CreateButton(item,obj,id);
                     id++;
                 }
             }
         }
-        DataHandler.Instance.SetFurniture(id);
     }
 
 

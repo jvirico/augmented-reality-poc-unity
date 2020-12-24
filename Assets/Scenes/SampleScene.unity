@@ -375,7 +375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 0}
+  m_PlanePrefab: {fileID: 7670600053532035873, guid: 629dd03fc32d34ddc802ce1222e75f58,
+    type: 3}
   m_DetectionMode: 1
 --- !u!1 &589505869
 GameObject:
@@ -884,6 +885,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 048991cee4d1d49a1a9351bec67e9529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  furniture: {fileID: 361639534965764158, guid: 2aa1d9646b39140cc8dac2c662416451,
+    type: 3}
   buttonPrefab: {fileID: 4850128828375858034, guid: a422514111c5e489f88fc48636039dce,
     type: 3}
   buttonContainer: {fileID: 698985142}
@@ -1092,7 +1095,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arCam: {fileID: 2060723207}
   _raycastManager: {fileID: 257058685}
-  crosshair: {fileID: 223974226}
 --- !u!4 &1124352208
 Transform:
   m_ObjectHideFlags: 0
