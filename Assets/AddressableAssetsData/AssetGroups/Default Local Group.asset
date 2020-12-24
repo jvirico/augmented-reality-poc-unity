@@ -17,32 +17,73 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: edb200a18fc774c6abc390c97d4d80b6
   m_SerializeEntries:
-  - m_GUID: 2aa1d9646b39140cc8dac2c662416451
+  - m_GUID: 059a38c3813f14d4eb6e2e7beec673c4
     m_Address: Wooden Chair
     m_ReadOnly: 0
     m_SerializedLabels:
     - Furnitures
-    m_MainAsset: {fileID: 361639534965764158, guid: 2aa1d9646b39140cc8dac2c662416451,
+    m_MainAsset: {fileID: 2870388775994748264, guid: 059a38c3813f14d4eb6e2e7beec673c4,
       type: 3}
-    m_TargetAsset: {fileID: 361639534965764158, guid: 2aa1d9646b39140cc8dac2c662416451,
+    m_TargetAsset: {fileID: 2870388775994748264, guid: 059a38c3813f14d4eb6e2e7beec673c4,
       type: 3}
-  - m_GUID: 4878f460905be49a39379b5def46137f
-    m_Address: Chair
+  - m_GUID: 1965b2086ddc744f6be6b8afb0243adc
+    m_Address: Bed
     m_ReadOnly: 0
     m_SerializedLabels:
     - Furnitures
-    m_MainAsset: {fileID: 8437609582529679427, guid: 4878f460905be49a39379b5def46137f,
+    m_MainAsset: {fileID: 2870388775994748264, guid: 1965b2086ddc744f6be6b8afb0243adc,
       type: 3}
-    m_TargetAsset: {fileID: 8437609582529679427, guid: 4878f460905be49a39379b5def46137f,
+    m_TargetAsset: {fileID: 2870388775994748264, guid: 1965b2086ddc744f6be6b8afb0243adc,
       type: 3}
-  - m_GUID: 66903c295536e4991849ce27b267e51f
+  - m_GUID: 1fde0d7d644604bea8817b71001181b0
     m_Address: Sofa
     m_ReadOnly: 0
     m_SerializedLabels:
     - Furnitures
-    m_MainAsset: {fileID: 1566322341323830186, guid: 66903c295536e4991849ce27b267e51f,
+    m_MainAsset: {fileID: 2870388775994748264, guid: 1fde0d7d644604bea8817b71001181b0,
       type: 3}
-    m_TargetAsset: {fileID: 1566322341323830186, guid: 66903c295536e4991849ce27b267e51f,
+    m_TargetAsset: {fileID: 2870388775994748264, guid: 1fde0d7d644604bea8817b71001181b0,
+      type: 3}
+  - m_GUID: 22963034962ee4fd9ab9d3504751992e
+    m_Address: Chair
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    m_MainAsset: {fileID: 2870388775994748264, guid: 22963034962ee4fd9ab9d3504751992e,
+      type: 3}
+    m_TargetAsset: {fileID: 2870388775994748264, guid: 22963034962ee4fd9ab9d3504751992e,
+      type: 3}
+  - m_GUID: 455c5a9b919dc4f1e8bf72e297a847d5
+    m_Address: BigSofa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    m_MainAsset: {fileID: 4762120836744616011, guid: 455c5a9b919dc4f1e8bf72e297a847d5,
+      type: 3}
+    m_TargetAsset: {fileID: 4762120836744616011, guid: 455c5a9b919dc4f1e8bf72e297a847d5,
+      type: 3}
+  - m_GUID: 583a699473f184c2a87b703ea1920873
+    m_Address: Assets/Curated Library/images/BigSofa.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Images
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5d3fb715fe8f74faea07a75317c2af8f
+    m_Address: Assets/Curated Library/images/Desktop.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Images
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 690fd855f5cfb4bacbd5da1656fafd0d
+    m_Address: Desktop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furnitures
+    m_MainAsset: {fileID: 549001856546414929, guid: 690fd855f5cfb4bacbd5da1656fafd0d,
+      type: 3}
+    m_TargetAsset: {fileID: 549001856546414929, guid: 690fd855f5cfb4bacbd5da1656fafd0d,
       type: 3}
   - m_GUID: 6edb073096d164f27b142b217d7d7658
     m_Address: Sofa
@@ -51,29 +92,20 @@ MonoBehaviour:
     - Images
     m_MainAsset: {fileID: 2800000, guid: 6edb073096d164f27b142b217d7d7658, type: 3}
     m_TargetAsset: {fileID: 2800000, guid: 6edb073096d164f27b142b217d7d7658, type: 3}
-  - m_GUID: 8287142244c0242a4957b86827d5106d
-    m_Address: Wooden Table
+  - m_GUID: 8324c10f1edc04a4a8ee4d6e66becc9a
+    m_Address: Chair
     m_ReadOnly: 0
     m_SerializedLabels:
     - Images
-    m_MainAsset: {fileID: 2800000, guid: 8287142244c0242a4957b86827d5106d, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 8287142244c0242a4957b86827d5106d, type: 3}
-  - m_GUID: 8324c10f1edc04a4a8ee4d6e66becc9a
-    m_Address: Assets/Curated Library/images/Chair.jpg
+    m_MainAsset: {fileID: 2800000, guid: 8324c10f1edc04a4a8ee4d6e66becc9a, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8324c10f1edc04a4a8ee4d6e66becc9a, type: 3}
+  - m_GUID: b22eb7c52f9e34b389b2c9d840da7988
+    m_Address: Assets/Curated Library/images/Bed.jpg
     m_ReadOnly: 0
     m_SerializedLabels:
     - Images
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 9f30ca0459ce447768283b5e3a97a9f2
-    m_Address: Wooden Table
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Furnitures
-    m_MainAsset: {fileID: 7034032767932945892, guid: 9f30ca0459ce447768283b5e3a97a9f2,
-      type: 3}
-    m_TargetAsset: {fileID: 7034032767932945892, guid: 9f30ca0459ce447768283b5e3a97a9f2,
-      type: 3}
   - m_GUID: e1669b73f1bc4440aafd1c3eed733677
     m_Address: Wooden Chair
     m_ReadOnly: 0

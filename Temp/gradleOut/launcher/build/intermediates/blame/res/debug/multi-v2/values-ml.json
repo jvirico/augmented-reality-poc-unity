@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/irico/Google Drive/IPCV/BURDEOS/AVR/Code/AR_DecoratorHelper/Temp/gradleOut/launcher/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml",
+            "map": [
+                {
+                    "source": "/Users/irico/.gradle/caches/transforms-2/files-2.1/b68322a373a957baf0ab5fd30e0d39ad/arcore_client/res/values-ml/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,289,410,537",
+                        "endColumns": "49,48,120,126,96",
+                        "endOffsets": "239,288,409,536,633"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,109,162,287,418",
+                        "endColumns": "53,52,124,130,100",
+                        "endOffsets": "104,157,282,413,514"
+                    }
+                }
+            ]
+        }
+    ]
+}

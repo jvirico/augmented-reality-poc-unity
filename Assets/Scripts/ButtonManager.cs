@@ -9,6 +9,7 @@ public class ButtonManager : MonoBehaviour
     private Button btn;
     public GameObject furniture;
     [SerializeField] private RawImage buttonImage;
+    private Camera MainCamera;
 
     private int _itemId;
     private Sprite _buttonTexture;
@@ -26,8 +27,10 @@ public class ButtonManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      MainCamera = Camera.main;
       btn = GetComponent<Button>(); // assign Button
       btn.onClick.AddListener(SelectObject);
+      btn.onClick.AddListener(InstantiateObject);
 
     }
 
@@ -47,7 +50,14 @@ public class ButtonManager : MonoBehaviour
 
     }
 
-    void SelectObject() // where we change arObj in InputManager
+    void InstantiateObject(){
+      //FurnitureHandler is in AR Camera (MainCamera)
+      GameObject furniture = DataHandler.Instance.GetFurniture();
+      MainCamera.GetComponent<FurnitureHandler>().PlaceFurniture(furniture);
+      Debug.Log("Instantiate button");
+    }
+
+    void SelectObject()
     {
       DataHandler.Instance.SetFurniture(_itemId);
     }

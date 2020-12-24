@@ -7,11 +7,11 @@ using UnityEngine.EventSystems;
 public class InputManager : MonoBehaviour
 {
     //[SerializeField] private GameObject arObj;
-    [SerializeField] private Camera arCam;
+/*     [SerializeField] private Camera arCam;
     [SerializeField] private ARRaycastManager _raycastManager;
     private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
 
-    private Touch touch; // for mobile
+    private Touch touch; // for mobile */
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class InputManager : MonoBehaviour
     void Update()
     {
 
-      if(Input.touchCount<1 || touch.phase!=TouchPhase.Began)
+/*       if(Input.touchCount<1 || touch.phase!=TouchPhase.Began)
         return;
 
       touch = Input.GetTouch(0);
@@ -37,15 +37,15 @@ public class InputManager : MonoBehaviour
       {
         Pose pose = _hits[0].pose;
         Instantiate(DataHandler.Instance.GetFurniture(), pose.position, pose.rotation);
-      }
+      } */
     }
 
-    bool IsPointerOverUI(Touch touch)
+/*     bool IsPointerOverUI(Touch touch)
     {
       PointerEventData eventData = new PointerEventData(EventSystem.current);
       eventData.position = new Vector2(touch.position.x, touch.position.y);
       List<RaycastResult> results = new List<RaycastResult>();
       EventSystem.current.RaycastAll(eventData, results);
       return results.Count > 0;
-    }
+    } */
 }

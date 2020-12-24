@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     private GraphicRaycaster raycaster;
     private PointerEventData pData;
     private EventSystem eventSystem;
+    [SerializeField] public Transform selectionPoint; // center of the button
 
     public static UIManager instance;
 
@@ -26,7 +27,7 @@ public class UIManager : MonoBehaviour
     }
 
 
-    public Transform selectionPoint; // center of the button
+    
     // Start is called before the first frame update
     void Start()
     {
