@@ -14,7 +14,8 @@ public class UIManager : MonoBehaviour
 
     public static UIManager instance;
 
-    public static UIManager Instance // could make a singleton class 
+    // Instance is created as a singleton class.
+    public static UIManager Instance 
     {
       get
       {

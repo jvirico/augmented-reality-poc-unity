@@ -50,6 +50,7 @@ public class ButtonManager : MonoBehaviour
 
     }
 
+    // Helper function - used to intantiate a specific virtual object in the scene
     void InstantiateObject(){
       //FurnitureHandler is in AR Camera (MainCamera)
       GameObject furniture = DataHandler.Instance.GetFurniture();
@@ -57,6 +58,7 @@ public class ButtonManager : MonoBehaviour
       Debug.Log("Instantiate button");
     }
 
+    // Helper function -  used to assign an ID to a given virtual object in the scene
     void SelectObject()
     {
       DataHandler.Instance.SetFurniture(_itemId);

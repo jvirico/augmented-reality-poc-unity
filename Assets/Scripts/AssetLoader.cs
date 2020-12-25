@@ -13,10 +13,6 @@ public class AssetLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Addressables.LoadAssetAsync<GameObject>("Modules").Completed += OnLoadDone; //The keys here are the Labels assignmed to addresable in Addressables Groups window
-        //Addressables.LoadAssetAsync<GameObject>("Furnitures").Completed += OnLoadDone;
-        //Addressables.LoadAssetsAsync<GameObject>("Furnitures",OnLoadDone); //We are checking for addressables labeled as Furnitires and calling OnLoadDone method for each of them.
-        //DataHandler.Instance.CreateButtons();
 
         Addressables.LoadAssetsAsync<GameObject>("Furnitures",LoadFurnitures);
         Addressables.LoadAssetsAsync<Sprite>("Images",LoadImages);
