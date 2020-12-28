@@ -2,7 +2,7 @@
 Anne-Claire Fouchier, Javier Rico, Nano Luque and Jingwen Yang
 
 ## Running the project.
-The project was developed and built on ***Unity 2019.4.12f1***
+The project was developed and built on ***Unity 2019.4.12f1***. To build and run it please import the code as a project into Unity. 
 
 ### Dependencies
 **Packages:** 
